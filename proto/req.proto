@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option go_package = "github.com/mkolchurin/bad_msg_handler/proto/req";
+
+package bad_msg_handler;
+
+// The greeting service definition.
+service MessageHandler {
+  // Sends a greeting
+  rpc getPhrase (phraseRequest) returns (phraseReply) {}
+}
+
+// The request message containing the user's name.
+message phraseRequest {
+  string name = 1;
+  int32 place = 2;
+  int32 oldMMR = 3;
+  int32 newMMR = 4;
+}
+
+// The response message containing the greetings
+message phraseReply {
+  string message = 1;
+}
