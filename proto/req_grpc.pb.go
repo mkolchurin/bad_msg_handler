@@ -4,7 +4,7 @@
 // - protoc             v5.26.1
 // source: proto/req.proto
 
-package proto
+package req
 
 import (
 	context "context"

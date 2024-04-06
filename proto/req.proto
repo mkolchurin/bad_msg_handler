@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/mkolchurin/bad_msg_handler/proto";
+option go_package = "github.com/mkolchurin/bad_msg_handler/proto/req";
 
 package bad_msg_handler;
 

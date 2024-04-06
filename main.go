@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	pb "github.com/mkolchurin/bad_msg_handler/proto"
+	pb "github.com/mkolchurin/bad_msg_handler/proto/req"
 	"google.golang.org/grpc"
 	"log"
 	"net"
