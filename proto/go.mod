@@ -1,4 +1,4 @@
-module github.com/mkolchurin/bad_msg_handler/proto/req
+module github.com/mkolchurin/bad_msg_handler/proto
 
 go 1.21.7
 
